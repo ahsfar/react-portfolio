@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-hue: 270;
+    --black-lightness: 15%;
+    --dark-lightness:44%;
+    --light-lightness: 94%;
+    --white-lightness: 100%;
+    --color-primary: hsl(var(--primary-hue), 89%, 41%);
+    --color-white: hsl(0,5%, var(--white-lightness));
+    --color-light: hsl(var(--primary-hue), 89%, var(--light-lightness));
+    --color-black: hsl(var(--primary-hue), 89%, var(--black-lightness));
+    --color-dark: hsl(var(--primary-hue), 89%, var(--dark-lightness));
+
+    /* General container variables */
+    --container-width-lg: 76%;
+    --container-width-md: 90%;
+
+    /* Border radius variables */
+    --border-radius-1: 1.2rem;
+    --border-radius-2: 0.8rem;
+    --border-radius-3: 0.5rem;
+
+    /* general transition variable */
+    --transition: all 500ms ease;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family:"Montserrat",sans-serif;
+    line-height: 1.6;
+    font-size: 0.9rem;
+}
+
+/* General container class */
+
+.container{
+    width: var(--container-width-lg);
+    margin-inline: auto;
+    max-width: 1920px;
+
+}
+
+/* General section styles */
+section{
+    padding: 10rem 0;
+    background: var(--color-light);
+    transition: var(--transition);
+}
+
+section:nth-child(even) {
+    background: var(--color-white);
+}
+
+section > h2{
+    text-align: center;
+}
+
+section > p{
+    text-align: center;
+    margin: 0.5rem, auto 4rem;
+    width: 40%;
+}
+
+/* General section styles */
+
+a{
+    color: var(--color-white);
+    transition: var(--transition);
+}
+
+/* General section styles */
