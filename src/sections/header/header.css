@@ -20,7 +20,6 @@ header {
     border-radius: 9rem 9rem 2rem 2rem;
     overflow: hidden;
     margin-bottom: 1.5rem;
-    display: flex;
 }
 
 .header__container p {
@@ -70,7 +69,7 @@ header {
 }
 
 
-/* MEDIA QUERIES (Phones) 600px and below */
+/* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 600px) {
     .header__profile {
         width: 14rem;

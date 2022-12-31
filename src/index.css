@@ -16,9 +16,9 @@
     --white-lightness: 100%;
     --color-primary: hsl(var(--primary-hue), 89%, 41%);
     --color-white: hsl(0,5%, var(--white-lightness));
-    --color-light: hsl(var(--primary-hue), 89%, var(--light-lightness));
-    --color-black: hsl(var(--primary-hue), 89%, var(--black-lightness));
-    --color-dark: hsl(var(--primary-hue), 89%, var(--dark-lightness));
+    --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
+    --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
+    --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
 
     /* General container variables */
     --container-width-lg: 76%;
@@ -70,7 +70,7 @@ section > h2{
 
 section > p{
     text-align: center;
-    margin: 0.5rem, auto 4rem;
+    margin: 0.5rem auto 4rem;
     width: 40%;
 }
 
@@ -99,7 +99,7 @@ h4{
     font-size: 1.1rem;
 }
 h5{
-    font-size: 0.9rem;
+    font-size: 0.95rem;
 }
 
 h6{
@@ -108,7 +108,7 @@ h6{
 
 /* General images style */
 
-.img {
+img {
     display: block;
     width: 100%;
     object-fit: cover;
