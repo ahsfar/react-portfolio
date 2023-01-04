@@ -2,9 +2,12 @@
 import Logo from "../../assets/logo.jpg";
 import data from "./data";
 import { AiOutlineBgColors} from "react-icons/ai"
+import { useModalContext } from "../../context/modal-context";
 import "./navbar.css"
 
 function Navbar() {
+  const {showModalHandler} = useModalContext()
+
   return (
     <nav>
     {/* nav__container -> BEM - block element modifier class */}
@@ -17,7 +20,7 @@ function Navbar() {
               data.map(item=> <li key={item.id}><a href={item.link}>{item.title}</a></li>)
             }
           </ul>
-          <button id="theme__icon"><AiOutlineBgColors/></button>
+          <button id="theme__icon" onClick={showModalHandler}><AiOutlineBgColors/></button>
         </div>
     </nav>
   )

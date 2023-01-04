@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
@@ -7,54 +7,104 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-/*CSS3 variables  */
-:root{
+
+:root {
     --primary-hue: 270;
     --black-lightness: 15%;
-    --dark-lightness:44%;
+    --dark-lightness: 44%;
     --light-lightness: 94%;
     --white-lightness: 100%;
     --color-primary: hsl(var(--primary-hue), 89%, 41%);
-    --color-white: hsl(0,5%, var(--white-lightness));
+    --color-white: hsl(0, 5%, var(--white-lightness));
     --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
     --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
     --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
 
-    /* General container variables */
+    /* GENERAL CONTAINER VARIABLES */
     --container-width-lg: 76%;
     --container-width-md: 90%;
 
-    /* Border radius variables */
+    /* BORDER RADIUS VARIABLES */
     --border-radius-1: 1.2rem;
     --border-radius-2: 0.8rem;
     --border-radius-3: 0.5rem;
 
-    /* general transition variable */
+    /* GENERAL TRANSITION VARIABLE */
     --transition: all 500ms ease;
 }
 
-
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
-    font-family:"Montserrat",sans-serif;
+body {
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
     font-size: 0.9rem;
 }
 
-/* General container class */
 
-.container{
+
+
+
+
+
+
+
+
+
+/* THEME change using react */
+main.color-1 {
+    --primary-hue: 270;
+}
+main.color-2 {
+    --primary-hue: 110;
+}
+main.color-3 {
+    --primary-hue: 240;
+}
+main.color-4 {
+    --primary-hue: 325;
+}
+main.color-5 {
+    --primary-hue: 0;
+}
+main.color-6 {
+    --primary-hue: 55;
+}
+
+main.bg-2 {
+    --black-lightness: 96%;
+    --dark-lightness: 60%;
+    --light-lightness: 12%;
+    --white-lightness: 6%;
+    --color-white: hsl(0, 5%, var(--white-lightness));
+    --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
+    --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
+    --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
+}
+
+main {
+    color: var(--color-dark);
+    --color-primary: hsl(var(--primary-hue), 89%, 41%);
+}
+
+
+
+
+
+
+
+
+/* GENERAL CONTAINER CLASS */
+.container {
     width: var(--container-width-lg);
     margin-inline: auto;
     max-width: 1920px;
-
 }
 
-/* General section styles */
-section{
+/* GENERAL SECTION STYLES */
+section {
     padding: 10rem 0;
     background: var(--color-light);
     transition: var(--transition);
@@ -64,149 +114,160 @@ section:nth-child(even) {
     background: var(--color-white);
 }
 
-section > h2{
+section > h2 {
     text-align: center;
 }
 
-section > p{
+section > p {
     text-align: center;
     margin: 0.5rem auto 4rem;
     width: 40%;
 }
 
-/* General section styles */
 
-a{
+/* GENERAL SECTION STYLES */
+a {
     /* color: var(--color-white); */
     transition: var(--transition);
 }
 
-/* General heading styles */
-h1, h2, h3, h4, h5, h6{
+/* GENERAL HEADING STYLES */
+h1, h2, h3, h4, h5, h6 {
     line-height: 1.1;
     color: var(--color-black);
 }
-h1{
+
+h1 {
     font-size: 3rem;
 }
-h2{
+
+h2 {
     font-size: 2rem;
 }
-h3{
+
+h3 {
     font-size: 1.6rem;
 }
-h4{
+
+h4 {
     font-size: 1.1rem;
 }
-h5{
+
+h5 {
     font-size: 0.95rem;
 }
 
-h6{
+h6 {
     font-size: 0.8rem;
 }
 
-/* General images style */
-
+/* GENERAL IMAGES STYLES */
 img {
     display: block;
     width: 100%;
     object-fit: cover;
 }
 
-/* General button styles */
-
-.btn{
+/* GENERAL BUTTON STYLES */
+.btn {
     display: inline-block;
     width: fit-content;
     display: flex;
     align-items: center;
     gap: 1rem;
-    background-color: var(--color-white);
+    background: var(--color-light);
     color: var(--color-black);
-    padding: 0.5rem 2.5rem;
+    padding: 0.6rem 2.5rem;
     border: 2px solid transparent;
-    border-radius:var(--border-radius-2) ;
+    border-radius: var(--border-radius-2);
     cursor: pointer;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: transparent;
     border-color: var(--color-light);
-    /* lift it up on hover */
     transform: translateY(-0.5rem);
 }
 
-
-.btn.white{
+.btn.white {
     background: var(--color-white);
-
 }
 
-.btn.white:hover{
+.btn.white:hover {
     background: transparent;
     border-color: var(--color-white);
 }
 
-.btn.primary{
+.btn.primary {
     background: var(--color-primary);
-    /* text color stays white even with other theme colors so using white that's why using white*/
+    /* text color always white that's why i didn't use a variable color */
     color: white;
 }
 
-.btn.primary:hover{
+.btn.primary:hover {
     background: transparent;
     border-color: var(--color-primary);
     color: var(--color-primary);
 }
 
-.btn.sm{
-    padding: 0.5 1.2rem;
+.btn.sm {
+    padding: 0.5rem 1.2rem;
 }
 
-/* Media Queries (tablets) */
-@media screen and (max-width: 1024px){
-    body{
+
+
+
+/* MEDIA QUERIES (tablets) */
+@media screen and (max-width: 1024px) {
+    body {
         font-size: 1rem;
     }
-    .container{
+    
+    .container {
         width: var(--container-width-md);
     }
-    section{
+
+    section {
         padding: 8rem 0;
     }
+
     section > p {
         width: 72%;
         margin-bottom: 3rem;
     }
-    h1{
+
+    h1 {
         font-size: 2rem;
     }
-
 }
 
-/* Media Queries (phones) */
-@media screen and (max-width: 600px){
 
-    h1{
+
+
+
+/* MEDIA QUERIES (phones) */
+@media screen and (max-width: 600px) {
+    h1 {
         font-size: 2.4rem;
     }
-    h2{
+
+    h2 {
         font-size: 1.8rem;
     }
-    h3{
+
+    h3 {
         font-size: 1.4rem;
     }
-    h4{
+
+    h4 {
         font-size: 1rem;
     }
-    .btn{
+
+    .btn {
         padding: 0.6rem 1.5rem;
-
-
     }
+
     section > p {
         width: var(--container-width-md);
     }
-    
 }
