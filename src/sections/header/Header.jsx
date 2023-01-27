@@ -17,7 +17,7 @@ function Header() {
           <div className="header__profile" data-aos="fade-in">
             <img src={HeaderImage} alt="Header Portrait" />
           </div>
-          <h3 data-aos="fade-up">Rose Merry</h3>
+          <h3 data-aos="fade-up">Ahsan Farooq</h3>
           <p data-aos="fade-up">
             You are a click away from building your dream website or web app. Send me the details o fyour project for a modern, mobile responsive, highly performant website today!
           </p>

@@ -1,5 +1,5 @@
 
-import Logo from "../../assets/logo.jpg";
+import Logo from "../../assets/logo.png";
 import data from "./data";
 import { AiOutlineBgColors} from "react-icons/ai"
 import { useModalContext } from "../../context/modal-context";

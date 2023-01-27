@@ -13,83 +13,57 @@ const data = [
         id: 1,
         category: 'uiux',
         image: Image1,
-        title: "Project Title One (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        title: "Immerse Institute SEO (UIUX)",
+        desc: "Helped team with SEO of the site",
+        demo: 'https://imlanguages.com/',
+        github: 'https://imlanguages.com/'
     },
     {
         id: 2,
         category: 'frontend',
         image: Image2,
-        title: "Project Title Two (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        title: "Tindog Bootstrap (Frontend)",
+        desc: "Used bootstrap 5 to create a new frontend for dogs to meet other dogs and hosted on github.",
+        demo: 'https://ahsfar.github.io/tindog/',
+        github: 'https://github.com/ahsfar/tindog'
     },
     {
         id: 3,
         category: 'frontend',
         image: Image3,
-        title: "Project Title Three (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
+        title: "Github Finder (Frontend)",
+        desc: "Used tailwind css and github api to find github users and their respective projects and hosted on vercel.",
+        demo: 'https://api-github-user-finder-react.vercel.app/',
         github: 'https://github.com/egattor'
     },
     {
         id: 4,
-        category: 'uiux',
+        category: 'frontend',
         image: Image4,
-        title: "Project Title Four (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        title: "Wordpress Portfolio (Frontend)",
+        desc: "Created wordpress portfolio, bought domian and hosted on wordpress using siteground. Used divi theme builder for the wordpress theme.",
+        demo: 'https://ahsanfarooq.com/',
+        github: 'https://ahsanfarooq.com/'
     },
     {
         id: 5,
-        category: 'uiux',
+        category: 'frontend',
         image: Image5,
-        title: "Project Title Five (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! ",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        title: "React Portfolio (Frontend)",
+        desc: "Created react portfolio from scratch, created sections, used context api, useState and useRef hooks, bought domian and hosted on hostinger.",
+        demo: 'https://ahsanfarooq.net/',
+        github: 'https://github.com/ahsfar/react-portfolio'
     },
     {
         id: 6,
-        category: 'frontend',
-        image: Image6,
-        title: "Project Title Six (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 7,
-        category: 'frontend',
-        image: Image7,
-        title: "Project Title Seven (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 8,
         category: 'backend',
-        image: Image8,
-        title: "Project Title Eight (Backend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 9,
-        category: 'frontend',
-        image: Image9,
-        title: "Project Title Nine (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        image: Image6,
+        title: "Proshop - continous (FullStack)",
+        desc: "Creating full-stack ecommerce website using MERN stack.",
+        demo: 'https://github.com/ahsfar/proshop',
+        github: 'https://github.com/ahsfar/proshop'
     }
+
 ]
 
 

@@ -19,9 +19,9 @@ nav{
 }
 
 .nav__logo{
-    width: 2.5rem;
-    height: 2.5rem;
-    border-radius: 50%;
+    width: 4.5rem;
+    height: 2rem;
+    border-radius: 10%;
     overflow: hidden;
     display: inline-flex;
 }
