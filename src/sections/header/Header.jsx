@@ -19,8 +19,7 @@ function Header() {
           </div>
           <h3 data-aos="fade-up">Ahsan Farooq</h3>
           <p data-aos="fade-up">
-            You are a click away from building your dream website or web app. Send me the details o fyour project for a modern, mobile responsive, highly performant website today!
-          </p>
+          Embark on a transformative journey to craft your ideal website or web app with the expertise of an aspiring DevOps Engineer – that's me! Together, we'll infuse a human touch into every aspect while ensuring modernity, mobile responsiveness, and outstanding performance. Don't hesitate – share the intricate details of your project, and let's commence this exhilarating venture towards a remarkable online presence!          </p>
           <div className="header__cta" data-aos="fade-up">
             <a href="#contact" className="btn primary">Let's talk</a>
             <a href="#portfolio" className="btn light">My Work</a>
