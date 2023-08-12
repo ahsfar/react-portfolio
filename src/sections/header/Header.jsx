@@ -4,6 +4,8 @@ import data from "./data"
 import AOS from "aos"
 import "aos/dist/aos.css"
 import "./header.css"
+import ProjectCarousel from "../../components/ProjectCarousel"
+
 
 function Header() {
 
@@ -31,6 +33,8 @@ function Header() {
             }
           </div>
         </div>
+        <ProjectCarousel />
+
     </header>
   )
 }
