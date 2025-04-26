@@ -4,10 +4,10 @@ import {AiOutlineDribbble} from "react-icons/ai";
 import {AiFillGithub} from "react-icons/ai";
 
 const data = [
-    {id:1, link: "http://instagram.com", icon: <AiOutlineInstagram/>},
-    {id:1, link: "http://twitter.com", icon: <AiOutlineTwitter/>},
-    {id:1, link: "http://dribble.com", icon: <AiOutlineDribbble/>},
-    {id:1, link: "http://github.com", icon: <AiFillGithub/>}
+    {id:1, link: "https://instagram.com", icon: <AiOutlineInstagram/>},
+    {id:1, link: "https://twitter.com", icon: <AiOutlineTwitter/>},
+    {id:1, link: "https://dribble.com", icon: <AiOutlineDribbble/>},
+    {id:1, link: "https://github.com", icon: <AiFillGithub/>}
 
 ]
 
