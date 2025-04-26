@@ -4,7 +4,9 @@ import data from "./data"
 import AOS from "aos"
 import "aos/dist/aos.css"
 import "./header.css"
-import ProjectCarousel from "../../components/ProjectCarousel"
+// ProjectCarousel component is imported but currently not in use
+// Can be uncommented and used in the future for displaying featured projects
+// import ProjectCarousel from "../../components/ProjectCarousel"
 
 
 function Header() {
@@ -33,8 +35,10 @@ function Header() {
             }
           </div>
         </div>
-        <ProjectCarousel />
-
+        {/* ProjectCarousel component is commented out for future use
+            Uncomment the line below to display featured projects in the header
+            <ProjectCarousel />
+        */}
     </header>
   )
 }
